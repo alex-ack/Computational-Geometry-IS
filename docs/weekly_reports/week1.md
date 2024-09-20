@@ -1,0 +1,3 @@
+This week was mostly about setting up the foundation for my project. I began by organizing the project structure, creating folders for algorithms, basics, notebooks, and tests. I also set up a virtual environment to manage the dependencies. 
+
+I'm going to track my progress each week by writing a short, casual journal entry of what I've done. Most of all, I want make myself a more creative programmer through this project. That in mind, I'm not going to use any sort of AI assistance (excpet for maybe letting Copilot write my documentation) for the course of the independent study.

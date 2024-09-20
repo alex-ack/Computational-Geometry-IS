@@ -1,0 +1,3 @@
+I spent a lot of time browsing online tutorials and articles to build a broader understanding of the basic concepts I’ll be implementing later. I didn’t dive into textbooks yet, but I did find some good visual explanations and examples of common algorithms like convex hulls, which helped me get a clearer picture of what’s ahead.
+
+Most of my time was spent organizing the structure of my project and planning out the next steps. I set up a few initial tests for the geometric primitives to make sure that when I do start coding, I’ll have a solid foundation. I also thought about how I want to structure the algorithms themselves so that they’re both easy to understand and efficient.

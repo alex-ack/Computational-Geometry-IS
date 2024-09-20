@@ -1,0 +1,7 @@
+I spent a lot of time reading the textbook Computational Geometry: Algorithms and Applications by Kreveld and Overmars, which has been helpful for understanding the theoretical aspects of geometric algorithms. I also looked at some online resources to fill in gaps and get different perspectives on how to implement these concepts in code.
+
+In terms of progress, I focused on organizing my project. I set up the basics folder with clear classes for geometric primitives like points, lines, and polygons. The Point class was pretty straightforward, and I added a method to calculate the distance between two points. After that, I tackled the Line class, which was fun because it involved implementing length and slope calculations. I handled the tricky edge case of vertical lines where the slope is undefined.
+
+The Polygon class took a bit more effort but was satisfying once I got it working. I implemented methods for calculating the perimeter and area using the Shoelace theorem, and it was great to see it all come together.
+
+Between coding, I spent a lot of time reading and making sure I fully understood the algorithms I was implementing. I’ve also started planning out how I’ll visualize everything—I'll be using matplotlib for now, but I might explore Plotly later for more interactive visuals.
