@@ -1,0 +1,9 @@
+This week, I focused on improving my Line and Polygon classes, especially addressing suggestions to make the slope method more robust and efficient. One of the improvements was introducing a vector attribute in the Line class, which simplified the calculation of the slope and made it less prone to type inconsistencies (i.e., switching between float and string types). By using this vector to calculate the slope, I can now handle vertical lines more gracefully by returning None when the slope is undefined.
+
+In addition to this, I made a few enhancements to the Polygon class. I added an n attribute to represent the number of vertices, which reduces repetition in the code and makes the logic for working with polygons much cleaner. I also implemented a sides attribute to represent the lines between consecutive vertices, and this allows me to easily calculate the polygon's perimeter by summing the lengths of all sides.
+
+Another major task I tackled was line intersection detection. I implemented an algorithm that checks if two line segments intersect by calculating their orientation (clockwise or counterclockwise turns) and then determining the exact intersection point.
+
+To handle edge cases, I made sure to address degenerate segments (where a line segment collapses into a point) by incorporating error handling. This ensures the algorithm can handle a wide variety of inputs without breaking.
+
+I still have some things to fix in the line intersection notebook, so I'll continue working on it into next week. I'll also get started on triangulation algorithms. I'm reading a book right now called The Big Bang of Numbers, and it has a very elegegant description of triangulation, so I'm especially excited.
