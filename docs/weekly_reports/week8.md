@@ -1,0 +1,5 @@
+This week, I worked on Arrangements of Lines and the concept of Duality in computational geometry. I started by generating random lines and plotting how they divide the 2D space, which helped visualize how lines create distinct regions. Then, I moved on to duality, where points are transformed into lines. I set up the notebook to plot these transformations and show how each point turns into a line in the dual space. I've also tried to be more thorough about my documentation lately.
+
+I don't really know if the way I'm visualizing it is correct. It doesn't really matter because NEXT WEEK I am DEFINITELY going to go back over all the code I've written so far and make patches/adjustments/updates accordingly. Annoying but necessary >:(
+
+I've also been slacking on pushing/pulling my updates. oops. clutching up next week...

@@ -25,7 +25,7 @@ def is_point_in_triangle(p: Point, t: Triangle) -> bool:
     area2 = abs((p.x - p2.x) * (p3.y - p2.y) - (p.y - p2.y) * (p3.x - p2.x)) / 2
     area3 = abs((p.x - p3.x) * (p1.y - p3.y) - (p.y - p3.y) * (p1.x - p3.x)) / 2
     return area == area1 + area2 + area3
-
+# there has got to be a simpler way to do this lol
 def is_ear(polygon: Polygon, i: int) -> bool:
     """Check if the vertex at index i forms an ear in the polygon."""
     prev_index = (i - 1) % polygon.n
